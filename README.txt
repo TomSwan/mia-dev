@@ -1,4 +1,4 @@
-// README.txt (copy of ABOUT.adoc for github)
+// README.txt (copy of ABOUT.adoc)
 :author: Tom Swan
 :email: <tom@tomswan.com>
 :stylesheet: normalize.css
@@ -9,7 +9,7 @@
 .2016-07-04
 - This is a demonstration of creating web-page menus in asciidoc documents. The demonstration is standalone, and can be distributed in a single zip file, generated as explained here. 
 
-* See www.tomswan.com/blog/posts/2015-07-10-menus-in-asciidoc for more info 
+* See www.tomswan.com/blog/posts/2015-07-10-menus-in-asciidoc.html 
 * I will also post this to github for cloning
 
 - All development files (ABOUT, TODO, and others) are in the outer directory (mia-dev). The files in mia are the ones to be distributed to end users in mia.zip. 
