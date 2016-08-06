@@ -1,0 +1,32 @@
+// index.adoc
+:author: Tom Swan
+:title: Menus in AsciiDoc
+:doctype: article
+:linkcss:
+:stylesheet: menus.css
+
+include::menu-include.adoc[]
+
+// Macro definitions for this file only
+:source: index.adoc[Source Text]
+
+- - -
+
+== {title}
+
+_by {Author}_
+
+http://www.tomswan.com
+
+- - -
+
+Main Page. Source text at: link:{source}. Instructions at: link:{readme}. Select a page from the above menu, or choose among the following links:
+
+  * link:{page1}
+
+  * link:{page2}
+
+  * link:{page3}
+
+  * link:{readme}
+

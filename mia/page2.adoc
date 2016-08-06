@@ -1,0 +1,25 @@
+// page2.adoc
+:author: Tom Swan
+:title: Menus in AsciiDoc : Page 2
+:doctype: article
+:linkcss:
+:stylesheet: menus.css
+
+include::menu-include.adoc[]
+
+// Macro definitions for this file only
+:source: page2.adoc[Source Text]
+
+- - -
+
+== {title}
+
+_by {Author}_
+
+- - -
+
+This is Page 2 of the menu demonstration. Select menu items above to change pages. For the source text of this page, browse to link:{source}.
+
+Assault alcohol human assassin decay semiotics face forwards corrupted wristwatch pistol plastic modem tattoo. Urban fluidity dead plastic lights drugs paranoid garage neural Kowloon towards geodesic hacker into man cartel office. Receding numinous girl BASE jump crypto-silent sub-orbital DIY urban network dolphin Tokyo. 
+
+Return to link:{home}

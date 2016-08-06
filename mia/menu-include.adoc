@@ -1,0 +1,21 @@
+// menu-include.adoc
+
+// Define macros for each HTML file referenced in the menu
+:home: index.html[Home]
+:page1: page1.html[Page-1]
+:page2: page2.html[Page-2]
+:page3: page3.html[Page-3]
+:readme: README.html[Read-Me]
+
+// Define other macros referenced in the text
+:website: http://www.tomswan.com
+:menu-include: menu-include.adoc[Menu Include Source]
+:menus-css: menus.css[Menu Stylesheet]
+:adoc: http://www.asciidoctor.org/[AsciiDoctor]
+:ruby: https://www.ruby-lang.org/en/[Ruby]
+
+// Create the menu as an AsciiDoc table, css class name in brackets
+[.main-menu]
+|===
+|link:{home}|link:{page1}|link:{page2}|link:{page3}|link:{readme}
+|===

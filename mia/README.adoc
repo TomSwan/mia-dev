@@ -1,0 +1,31 @@
+// README.adoc
+:author: Tom Swan
+:title: Menus in AsciiDoc : README
+:doctype: article
+:linkcss:
+:stylesheet: menus.css
+
+include::menu-include.adoc[]
+
+// Macro definitions for this file only
+:source-adoc: README.adoc[]
+:source-txt: README.txt[]
+
+- - -
+
+== {title}
+
+_by {Author}_
+
+- - -
+
+This document's text: link:{source-adoc} and link:{source-txt}
+
+Menu creation text: link:{menu-include}
+
+Stylesheet: link:{menus-css}
+
+// Bring in text of README document
+include::README.txt[]
+
+Return to link:{home}

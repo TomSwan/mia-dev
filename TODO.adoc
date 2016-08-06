@@ -1,0 +1,35 @@
+// TODO.adoc
+:author: Tom Swan
+:email: <tom@tomswan.com>
+:stylesheet: normalize.css
+
+// -----------------------------------------------------------------
+== Using This TODO File
+
+When items from the <<ttd>> list are done, move them, newer above older, to <<td>>.
+
+NOTE: Usually never delete "To Do" entries. Instead, move and date old entries to "Things Done," newer items first, to create a project history.
+
+[[ttd]]
+// -----------------------------------------------------------------
+=== Things To Do
+
+- upload to github
+- - copy ABOUT.adoc to README.txt
+
+
+[[td]]
+// -----------------------------------------------------------------
+=== Things Done
+
+.2016-07-04 16:05:46 -0400
+- created mia directory for final mia.zip
+- separated dev files to outer directory 
+
+.2016-07-04 15:00:50 -0400
+- Organize for article
+- Revise makefile and overall outline
+- Create zip file
+
+.2016-07-03 16:26:10 -0400
+- Update this file's format

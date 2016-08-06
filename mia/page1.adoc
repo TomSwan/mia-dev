@@ -1,0 +1,35 @@
+// page1.adoc
+:author: Tom Swan
+:title: Menus in AsciiDoc : Page 1
+:doctype: article
+:linkcss:
+:stylesheet: menus.css
+
+include::menu-include.adoc[]
+
+// Macro definitions for this file only
+:source: page1.adoc[Source Text]
+
+- - -
+
+== {title}
+
+_by {Author}_
+
+- - -
+
+This is Page 1 of the menu demonstration. Select menu items above to change pages. For the source text of this page, browse to link:{source}.
+
+.Color Values (Sample Table)
+[width="50%"]
+|====================================
+| Red    | 255 | 000 | 000 | \#FF0000    
+| Orange | 255 | 161 | 000 | \#FFA100
+| Yellow | 255 | 255 | 000 | \#FFFF00
+|====================================
+
+Cartel urban car DIY tattoo semiotics long-chain hydrocarbons numinous advert corrupted papier-mache euro-pop plastic cardboard footage realism bomb. Skyscraper shoes grenade cardboard dolphin jeans knife media network order-flow tower stimulate wonton soup bicycle uplink. 
+
+Camera corrupted range-rover DIY artisanal concrete carbon nano-nodal point office. Computer singularity nano-corrupted grenade papier-mache vinyl tube crypto-dissident youtube sunglasses savant narrative Shibuya hacker. 
+
+Return to link:{home}
