@@ -5,7 +5,7 @@
 :page1: page1.html[Page-1]
 :page2: page2.html[Page-2]
 :page3: page3.html[Page-3]
-:readme: README.html[Read-Me]
+:readme: readme.html[Read-Me]
 
 // Define other macros referenced in the text
 :website: http://www.tomswan.com

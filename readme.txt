@@ -1,4 +1,4 @@
-// README.txt
+// readme.txt
 
 === How to Use This Demo
 
