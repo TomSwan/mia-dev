@@ -4,7 +4,7 @@
 
 ## Menus in AsciiDoc
 
-The files in this repository demonstrate a simple but effective way to add menu bars to AsciiDoc documents with no HTML skills or add-ons required. As the screenshot shows, you can even build entire multi-page linked web sites using only [Asciidoctor](https://asciidoctor.org/) and a text editor.
+The files in this repository demonstrate a simple but effective way to add menu bars to AsciiDoc documents with no HTML skills or add-ons required. As the screenshot shows, you can even build entire multi-page linked web sites using only [Asciidoctor](https://asciidoctor.org/) and a text editor. Also, as demonstrated, colors, fonts, and styles are fully programmable using CSS.
 
 ![mia-dev screenshot](screenshot.png)
 
@@ -44,13 +44,16 @@ $ git pull
 
 ## Uninstall
 
-To return to this repository's original state as first published, checkout the original branch on GitHub, or on the clone:
+To return to this repository's original state as first published in 2016, __after__ staging and git-committing any and all changes, checkout the original branch:
 
 ```text
 $ cd /clones/mia-dev
+$ git add .
+$ git commit -m 'going into the past'
 $ git co original
 ```
 
+After looking around, checkout the master branch to come back to the future. (Wait. When is now again?)
 
 To completely uninstall the demo, simply delete the mia-dev folder.
 
