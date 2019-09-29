@@ -1,4 +1,4 @@
-# makefile
+# Makefile
 # by Tom Swan (www.tomswan.com)
 # 2016-07-07 08:45:34 -0400
 # Type 'make' to build, 'make clean' to delete generated files

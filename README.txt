@@ -10,30 +10,26 @@ These files demonstrate a simple but effective way to add menu bars (like the on
 
 image::screenshot.png[Screenshot, 50%, 50%]  
 
-You can also view the demonstration directly on GitHub. Just open [!!!`FIX-ME`!!!-link] index.html file.
+You can also view the demonstration directly on GitHub. Just open the index.html file.
 
 // -----------------------------------------------------------------
-=== Building the Demonstrations
+=== Building the Demonstration
 
-Call on make to rebuild the demonstration: 
+After editing the files, call on make to rebuild the demonstration and try out your ideas: 
 
   $ make
 
-That runs the system make utility on makefile in the current directory. To erase generated HTML and backup files, enter:
+That runs the system make utility on Makefile in the current directory. Refresh your browser to reload the test. To erase generated HTML and backup files, enter:
 
   $ make clean
 
-Enter `make` again to regenerate the deleted files.
+Enter `make` again to regenerate.
 
 // -----------------------------------------------------------------
 === Asciidoctor
 
-That requires {adoc} to be installed. To check, list any gems for it:
+Building the demonstration requires {adoc} to be installed. Install the software if necessary by typing:
 
 ----
-$ gem list asciidoctor
-asciidoctor (2.0.10, 2.0.9, 1.5.8, 1.5.5)
+$ sudo gem install asciidoctor
 ----
-
-
-For more information about this demo, see my article *_Menus in AsciiDoc_* at www.tomswan.com. It's on the Blog page.
