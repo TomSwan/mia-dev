@@ -19,7 +19,7 @@ $ git clone https://github.com/TomSwan/mia-dev.git
 Cloning into 'mia-dev'...
 ```
 
-Point a browser at mia-dev/index.html to view the demonstration HTML pages. Alternatively, you can open index.html directly from the GitHub repository.
+Point a browser at mia-dev/index.html to view the demonstration HTML pages.
 
 Make changes to the source code .adoc text files, all in AsciiDoc markup. Also inspect the index.adoc and menu-include.adoc files. Select the provided links to switch between HTML-formatted screens and the source text that produces those pages. Run make to rebuild, make clean to erase, the HTML output files:
 
@@ -43,6 +43,14 @@ $ git pull
 ```
 
 ## Uninstall
+
+To return to this repository's original state as first published, checkout the original branch on GitHub, or on the clone:
+
+```text
+$ cd /clones/mia-dev
+$ git co original
+```
+
 
 To completely uninstall the demo, simply delete the mia-dev folder.
 
