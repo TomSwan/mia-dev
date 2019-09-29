@@ -1,29 +1,31 @@
-// README.txt (copy of ABOUT.adoc)
-:author: Tom Swan
-:email: <tom@tomswan.com>
-:stylesheet: normalize.css
+// README.txt
 
-// -----------------------------------------------------------------
-== About Menus-in-Asciidoc (mia) Project
+=== How to Use This Demo
 
-.2016-07-04
-- This is a demonstration of creating web-page menus in asciidoc documents. The demonstration is standalone, and can be distributed in a single zip file, generated as explained here. 
+These files demonstrate a simple but effective way to add menu bars (like the one above) to AsciiDoc documents with no HTML skills or add-ons required. All you need is link:{adoc} and a text editor. Follow these steps to run the demonstration:
 
-* See www.tomswan.com/blog/posts/2015-07-10-menus-in-asciidoc.html 
-* I will also post this to github for cloning
+1. Unpack this demonstration's `mia.zip` ("Menus in AsciiDoc") archive
+2. In directory `mia` open `index.html` in your browser (see screenshot below)
+3. Select menu items and use links to view document source text files
 
-- All development files (ABOUT, TODO, and others) are in the outer directory (mia-dev). The files in mia are the ones to be distributed to end users in mia.zip. 
+image::screenshot.png[Screenshot, 50%, 50%]  
 
-// -----------------------------------------------------------------
-=== Creating the ZIP File
+To try out your own designs using this demonstration's files as templates, first install AsciiDoctor if necessary (this assumes link:{ruby} is installed):
 
-Verify that all files in mia are ready for publishing, and then:
+  $ gem install asciidoctor
 
-* Run make from mia-dev to build the demo and create mia.zip. Unpacking the zip file recreates the mia folder
+Load any of this demonstration's `.adoc` source text files into your text editor, make changes, and then process (or "compile" in programming-speak) with AsciiDoctor. Compile a source file individually:
 
-* To recompile from scratch, execute these two commands:
+  $ asciidoctor index.adoc
 
-  $ make clean
+Or, to compile one or more documents with one command, enter:
+
   $ make
 
-* Copy mia.zip to the site or blog post distribution page. Tell users to unpack the archive to mia, go to that folder, and then open index.html in their browsers. 
+This runs the system `make` utility on `makefile` in the current directory. To erase generated HTML and backup files, enter:
+
+  $ make clean
+
+Enter `make` again to regenerate the deleted files.
+
+For more information about this demo, see my article *_Menus in AsciiDoc_* at www.tomswan.com. It's on the Blog page.

@@ -1,22 +1,15 @@
-# menus-dev makefile
+# makefile
 # by Tom Swan (www.tomswan.com)
-# 2016-07-07 08:45:28 -0400
+# 2016-07-07 08:45:34 -0400
 # Type 'make' to build, 'make clean' to delete generated files
 
-# Set path to name of directory to be distributed to end user
-# Set zip to the archive file to be distributed to end user
-path=mia
-zip=${path}.zip
+targets=index.html page1.html page2.html page3.html README.html
 
-all: ABOUT.html TODO.html ${zip}
+all: ${targets}
 
-%.html : %.adoc
+%.html : %.adoc README.txt menu-include.adoc
 	asciidoctor $<
-	
-${zip} : ${path}/*.* 
-	zip -r ${zip} ${path}
 
 clean:
-	rm -v -f *.html
+	rm -v -f ${targets}
 	rm -v -f *.*~
-	rm -v -f ${zip}
