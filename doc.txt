@@ -10,8 +10,6 @@ These files demonstrate a simple but effective way to add menu bars (like the on
 
 image::screenshot.png[Screenshot, 50%, 50%]  
 
-You can also view the demonstration directly on GitHub. Just open the index.html file.
-
 // -----------------------------------------------------------------
 === Building the Demonstration
 
