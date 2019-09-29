@@ -5,7 +5,7 @@
 :page1: page1.html[Page-1]
 :page2: page2.html[Page-2]
 :page3: page3.html[Page-3]
-:readme: readme.html[Read-Me]
+:doc: doc.html[Read-Me]
 
 // Define other macros referenced in the text
 :website: http://www.tomswan.com
@@ -17,5 +17,5 @@
 // Create the menu as an AsciiDoc table, css class name in brackets
 [.main-menu]
 |===
-|link:{home}|link:{page1}|link:{page2}|link:{page3}|link:{readme}
+|link:{home}|link:{page1}|link:{page2}|link:{page3}|link:{doc}
 |===

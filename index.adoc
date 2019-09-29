@@ -20,7 +20,7 @@ http://www.tomswan.com
 
 - - -
 
-Main Page. Source text at: link:{source}. Instructions at: link:{readme}. Select a page from the above menu, or choose among the following links:
+Main Page. Source text at: link:{source}. Instructions at: link:{doc}. Select a page from the above menu, or choose among the following links:
 
   * link:{page1}
 
@@ -28,5 +28,5 @@ Main Page. Source text at: link:{source}. Instructions at: link:{readme}. Select
 
   * link:{page3}
 
-  * link:{readme}
+  * link:{doc}
 

@@ -48,7 +48,7 @@ To completely uninstall the demo, simply delete the mia-dev folder.
 
 ## More Information
 
-The information in this file is the latest and greatest on mia-dev. You'll also find a simpler readme.txt file in the repository that, while accurate, is only for the demonstration "web site." Of course, as always, the best documentation is the source code itself.
+The information in this file is the latest and greatest on mia-dev. You'll also find a simpler doc.txt file in the repository that, while accurate, is only for the demonstration "web site." Of course, as always, the best documentation is the source code itself.
 
 Please also visit my web site (generated, naturally, using Asciidoctor). Good luck!
 

@@ -3,11 +3,11 @@
 # 2016-07-07 08:45:34 -0400
 # Type 'make' to build, 'make clean' to delete generated files
 
-targets=index.html page1.html page2.html page3.html readme.html
+targets=index.html page1.html page2.html page3.html doc.html
 
 all: ${targets}
 
-%.html : %.adoc readme.txt menu-include.adoc
+%.html : %.adoc doc.txt menu-include.adoc
 	asciidoctor $<
 
 clean:

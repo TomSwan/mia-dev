@@ -1,4 +1,4 @@
-// readme.txt
+// doc.txt
 
 === How to Use This Demo
 
