@@ -11,7 +11,7 @@
 :website: http://www.tomswan.com
 :menu-include: menu-include.adoc[Menu Include Source]
 :menus-css: menus.css[Menu Stylesheet]
-:adoc: http://www.asciidoctor.org/[AsciiDoctor]
+:adoc: http://www.asciidoctor.org/[Asciidoctor]
 :ruby: https://www.ruby-lang.org/en/[Ruby]
 
 // Create the menu as an AsciiDoc table, css class name in brackets
