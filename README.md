@@ -50,7 +50,7 @@ To return to this repository's original state as first published in 2016, __afte
 $ cd /clones/mia-dev
 $ git add .
 $ git commit -m 'going into the past'
-$ git co original
+$ git checkout original
 ```
 
 After looking around, checkout the master branch to come back to the future. (Wait. When is now again?)
