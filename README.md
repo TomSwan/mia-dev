@@ -19,7 +19,9 @@ $ git clone https://github.com/TomSwan/mia-dev.git
 Cloning into 'mia-dev'...
 ```
 
-Point a browser at mia-dev/index.html to view the demonstration HTML pages.
+Point a browser at mia-dev/index.html to view the demonstration HTML pages. Or, view the demonstration web site online here:
+
+http://www.tomswan.com/pub/menus-in-asciidoc/
 
 Make changes to the source code .adoc text files, all in AsciiDoc markup. Also inspect the index.adoc and menu-include.adoc files. Select the provided links to switch between HTML-formatted screens and the source text that produces those pages. Run make to rebuild, make clean to erase, the HTML output files:
 
