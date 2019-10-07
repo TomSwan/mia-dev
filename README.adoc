@@ -1,9 +1,15 @@
+// README.adoc
+
 = Menus in AsciiDoc (mia-dev)
 
 The files in this repository demonstrate a simple but effective way to add menu bars to AsciiDoc documents with no HTML skills or add-ons required. As the screenshot shows, you can even build entire multi-page linked web sites using only https://www.asciidoctor.org/[Asciidoctor] and a text editor. Also, as demonstrated, colors, fonts, and styles are fully programmable using CSS.
 
 .Screenshot
 image::screenshot.png[mia-dev screenshot]
+
+- - -
+
+// -----------------------------------------------------------------
 
 == Download, Build, and Run
 
@@ -31,6 +37,10 @@ $ make
 
 PS: On Linux, nano is a simple but useful plain-text editor, but you can use any other. Type ctrl+o and ctrl+x to save and get out of nano.
 
+- - -
+
+// -----------------------------------------------------------------
+
 == Updates
 
 Fetch any updates for this project from GitHub. Go into your cloned mia-dev folder and issue git fetch and pull commands:
@@ -42,6 +52,10 @@ $ cd /clones/mia-dev
 $ git fetch
 $ git pull
 ----
+
+- - -
+
+// -----------------------------------------------------------------
 
 == Uninstall
 
@@ -58,6 +72,10 @@ $ git checkout original
 After looking around, checkout the master branch to come back to the future. (Wait. When is now again?)
 
 To completely uninstall the demo, simply delete the mia-dev folder.
+
+- - -
+
+// -----------------------------------------------------------------
 
 == More Information
 
